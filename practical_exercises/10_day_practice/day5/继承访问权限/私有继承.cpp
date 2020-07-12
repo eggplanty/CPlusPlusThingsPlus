@@ -9,7 +9,7 @@ public:
 };
 //私有继承
 //基类的中的public成员在派生类中是private, private成员在派生类中不可访问。
-class derived:private base{
+class derived:private Base{
 	int y;
 public:
 	void sety(int n){y=n;	}
